@@ -110,7 +110,7 @@ export function AntigravityCanvas({ scoped = false }: { scoped?: boolean }) {
       time += 0.018;
       ctx.clearRect(0, 0, width, height);
 
-      const radius = 500;
+      const radius = 300;
 
       for (let i = 0; i < particles.length; i++) {
         const p = particles[i];
